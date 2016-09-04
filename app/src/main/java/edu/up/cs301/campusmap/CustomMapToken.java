@@ -11,7 +11,7 @@ public class CustomMapToken extends SimpleMapToken {
     }
     public void drawOn(Canvas canvas) {
         canvas.drawCircle(x, y, radius, paint);
-        canvas.drawCircle(x-(radius/3), y-(radius/3), radius*2/3, paint);
-        canvas.drawCircle(x+(radius*2/3), y-(radius/3), radius*2/3, paint);
+        canvas.drawCircle(x-(radius*2/3), y-(radius*2/3), radius*2/3, paint);
+        canvas.drawCircle(x+(radius*2/3), y-(radius*2/3), radius*2/3, paint);
     }
 }
